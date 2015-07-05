@@ -20,6 +20,8 @@
     <object>objects\objbullet</object>
     <object>objects\objranged_1</object>
     <object>objects\objenemybullet</object>
+    <object>objects\objenemy_parent</object>
+    <object>objects\objenemybullet_parent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
