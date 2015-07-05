@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\player</sprite>
+    <sprite>sprites\reticle</sprite>
     <sprite>sprites\wall</sprite>
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\ranged_1</sprite>
@@ -18,10 +19,14 @@
     <object>objects\objplayer</object>
     <object>objects\objwall</object>
     <object>objects\objbullet</object>
+    <object>objects\aim</object>
+    <object>objects\objbullet_2</object>
+    <object>objects\objbullet_3</object>
     <object>objects\objranged_1</object>
     <object>objects\objenemybullet</object>
     <object>objects\objenemy_parent</object>
     <object>objects\objenemybullet_parent</object>
+    <object>objects\objbullet_parent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
