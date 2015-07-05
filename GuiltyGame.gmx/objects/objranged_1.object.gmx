@@ -223,7 +223,7 @@ else if distance_to_object(objplayer) &gt; 200 {
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
