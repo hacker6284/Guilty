@@ -14,7 +14,9 @@
     <sprite>sprites\enemybullet</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <objects name="objects">
     <object>objects\objplayer</object>
     <object>objects\objwall</object>
