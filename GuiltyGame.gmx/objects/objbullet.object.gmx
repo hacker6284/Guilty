@@ -38,40 +38,6 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>121</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_potential_step</functionname>
-        <codestring></codestring>
-        <whoName>objranged_1</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>32</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>32</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>3</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="objenemybullet">
       <action>
         <libid>1</libid>
@@ -83,31 +49,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_position</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>204</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_position</functionname>
-        <codestring></codestring>
-        <whoName>other</whoName>
+        <whoName>objbullet</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
@@ -122,7 +64,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objranged_1">
+    <event eventtype="7" enumb="0">
       <action>
         <libid>1</libid>
         <id>204</id>
@@ -133,7 +75,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_position</functionname>
         <codestring></codestring>
-        <whoName>other</whoName>
+        <whoName>self</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
