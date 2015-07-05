@@ -82,6 +82,37 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>{
+    if (keyboard_check(ord("D")) &amp;&amp; keyboard_check(ord("W")))  motion_set(45 ,5);
+    else if (keyboard_check(ord("A")) &amp;&amp; keyboard_check(ord("W")))  motion_set(135,5);
+    else if (keyboard_check(ord("A")) &amp;&amp; keyboard_check(ord("S")))  motion_set(225,5); 
+    else if (keyboard_check(ord("S")) &amp;&amp; keyboard_check(ord("D")))  motion_set(315,5);
+    else if (keyboard_check(ord("A"))) motion_set(180, 5);
+    else if (keyboard_check(ord("S"))) motion_set(270, 5);
+    else if (keyboard_check(ord("D"))) motion_set(0, 5);
+    else if (keyboard_check(ord("W"))) motion_set(90, 5);
+    else if (keyboard_check(vk_nokey)) motion_set(0,0);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="4" ename="objwall">
       <action>
