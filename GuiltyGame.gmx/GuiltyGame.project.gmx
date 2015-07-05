@@ -10,6 +10,7 @@
     <sprite>sprites\reticle</sprite>
     <sprite>sprites\wall</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\shotgunbullet</sprite>
     <sprite>sprites\ranged_1</sprite>
     <sprite>sprites\enemybullet</sprite>
   </sprites>
