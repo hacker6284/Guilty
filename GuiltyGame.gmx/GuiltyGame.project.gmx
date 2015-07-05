@@ -9,6 +9,8 @@
     <sprite>sprites\player</sprite>
     <sprite>sprites\wall</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\ranged_1</sprite>
+    <sprite>sprites\enemybullet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,6 +18,8 @@
     <object>objects\objplayer</object>
     <object>objects\objwall</object>
     <object>objects\objbullet</object>
+    <object>objects\objranged_1</object>
+    <object>objects\objenemybullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
