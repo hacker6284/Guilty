@@ -21,7 +21,6 @@
     <object>objects\objplayer</object>
     <object>objects\objwall</object>
     <object>objects\objbullet</object>
-    <object>objects\aim</object>
     <object>objects\objbullet_2</object>
     <object>objects\objbullet_3</object>
     <object>objects\objranged_1</object>
