@@ -33,6 +33,30 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>player_speed</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>5</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="0">
       <action>
@@ -99,14 +123,14 @@
           <argument>
             <kind>1</kind>
             <string>{
-    if (keyboard_check(ord("D")) &amp;&amp; keyboard_check(ord("W")))  motion_set(45 ,5);
-    else if (keyboard_check(ord("A")) &amp;&amp; keyboard_check(ord("W")))  motion_set(135,5);
-    else if (keyboard_check(ord("A")) &amp;&amp; keyboard_check(ord("S")))  motion_set(225,5); 
-    else if (keyboard_check(ord("S")) &amp;&amp; keyboard_check(ord("D")))  motion_set(315,5);
-    else if (keyboard_check(ord("A"))) motion_set(180, 5);
-    else if (keyboard_check(ord("S"))) motion_set(270, 5);
-    else if (keyboard_check(ord("D"))) motion_set(0, 5);
-    else if (keyboard_check(ord("W"))) motion_set(90, 5);
+    if (keyboard_check(ord("D")) &amp;&amp; keyboard_check(ord("W")))  motion_set(45 ,player_speed);
+    else if (keyboard_check(ord("A")) &amp;&amp; keyboard_check(ord("W")))  motion_set(135,player_speed);
+    else if (keyboard_check(ord("A")) &amp;&amp; keyboard_check(ord("S")))  motion_set(225,player_speed); 
+    else if (keyboard_check(ord("S")) &amp;&amp; keyboard_check(ord("D")))  motion_set(315,player_speed);
+    else if (keyboard_check(ord("A"))) motion_set(180, player_speed);
+    else if (keyboard_check(ord("S"))) motion_set(270, player_speed);
+    else if (keyboard_check(ord("D"))) motion_set(0, player_speed);
+    else if (keyboard_check(ord("W"))) motion_set(90, player_speed);
     else if (keyboard_check(vk_nokey)) motion_set(0,0);
 }
 </string>
