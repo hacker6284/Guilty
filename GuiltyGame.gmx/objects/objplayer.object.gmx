@@ -31,32 +31,28 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="87">
+    <event eventtype="4" ename="objwall">
       <action>
         <libid>1</libid>
-        <id>105</id>
+        <id>101</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_move_point</functionname>
+        <functionname>action_move</functionname>
         <codestring></codestring>
-        <whoName>other</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>mouse_x</string>
+            <kind>1</kind>
+            <string>000010000</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>mouse_y</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>4</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
