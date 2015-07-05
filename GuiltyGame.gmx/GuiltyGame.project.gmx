@@ -8,12 +8,14 @@
   <sprites name="sprites">
     <sprite>sprites\player</sprite>
     <sprite>sprites\wall</sprite>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objplayer</object>
     <object>objects\objwall</object>
+    <object>objects\objbullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
