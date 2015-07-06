@@ -150,7 +150,7 @@ var starty = self.y;
         <arguments>
           <argument>
             <kind>8</kind>
-            <path>path2</path>
+            <path>-100</path>
           </argument>
           <argument>
             <kind>0</kind>

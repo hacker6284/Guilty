@@ -22,6 +22,7 @@
     <path>paths\path0</path>
     <path>paths\path1</path>
     <path>paths\path2</path>
+    <path>paths\path4</path>
   </paths>
   <objects name="objects">
     <object>objects\objplayer</object>
@@ -43,6 +44,7 @@
     <object>objects\objenemybullet_parent</object>
     <object>objects\objbullet_parent</object>
     <object>objects\scoreboard</object>
+    <object>objects\spinobj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
