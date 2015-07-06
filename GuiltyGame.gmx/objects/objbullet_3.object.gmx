@@ -30,11 +30,13 @@ self.direction = objplayer.image_angle + self.cone;
 
 if self.cone &lt; -10 self.speed = irandom_range(15,17);
 else if self.cone &lt; -5 self.speed = irandom_range(17,18);
-else if self.cone &gt; 5 self.speed = irandom_range(15,17);
-else if self.cone &gt; 10 self.speed = irandom_range(17,18);
+else if self.cone &lt; 0 self.speed = irandom_range(18,19);
+else if self.cone &gt; 0 self.speed = irandom_range(18,19);
+else if self.cone &gt; 5 self.speed = irandom_range(17,18);
+else if self.cone &gt; 10 self.speed = irandom_range(15,17);
 else self.speed = irandom_range(18,20);
 
-var self.time = irandom_range(16,24);;
+var self.time = irandom_range(24,32);
 </string>
           </argument>
         </arguments>
