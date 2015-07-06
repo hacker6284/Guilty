@@ -565,6 +565,66 @@
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Dual Pistols</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if mouse_check_button_pressed(mb_left)
+if global.dualwieldpistol = 1
+if weapon = 1
+if weapontimer = 1
+{
+instance_create(objplayer.x,objplayer.y,objpistolbullet_dw1)
+alarm[0] = 1
+weapontimer = 0
+};
+
+if mouse_check_button_pressed(mb_right)
+if global.dualwieldpistol = 1
+if weapon = 1
+if weapontimer = 1
+{
+instance_create(objplayer.x,objplayer.y,objpistolbullet_dw2)
+alarm[0] = 1
+weapontimer = 0
+};
+
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="4" ename="objwall">
       <action>
@@ -592,7 +652,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="50">
+    <event eventtype="6" enumb="53">
       <action>
         <libid>1</libid>
         <id>605</id>
@@ -633,7 +693,7 @@
 if weapon = 1
 if weapontimer = 1
 {
-alarm[0] = 20
+alarm[0] = 2
 weapontimer = 0
 instance_create(objplayer.x,objplayer.y,objpistolbullet)
 };
@@ -678,119 +738,24 @@ instance_create(objplayer.x,objplayer.y,objpistolbullet)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.dualwieldpistol = 1
+            <string>if mouse_check_button_pressed(mb_left)
+if global.dualwieldpistol = 1
 if weapon = 1
 if weapontimer = 1
 {
-alarm[0] = 20
-weapontimer = 0
-if global.dualwieldpistol_leftright = 0 
-{
 instance_create(objplayer.x,objplayer.y,objpistolbullet_dw1)
-}
-if global.dualwieldpistol_leftright = 2 
+alarm[0] = 1
+weapontimer = 0
+};
+
+if mouse_check_button_pressed(mb_right)
+if global.dualwieldpistol = 1
+if weapon = 1
+if weapontimer = 1
 {
 instance_create(objplayer.x,objplayer.y,objpistolbullet_dw2)
-}
-};
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>605</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>Thompson</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if global.dualwieldtommy = 0
-if weapon = 2
-if weapontimer = 1
-{
-alarm[0] = 4
+alarm[0] = 1
 weapontimer = 0
-instance_create(objplayer.x,objplayer.y,objtommybullet)
-};
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>605</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>Dual Thompsons</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if global.dualwieldtommy = 1
-if weapon = 2
-if weapontimer = 1
-{
-alarm[0] = 4
-weapontimer = 0
-instance_create(objplayer.x,objplayer.y,objtommybullet_dw1)
-instance_create(objplayer.x,objplayer.y,objtommybullet_dw2)
 };
 
 </string>
@@ -919,6 +884,157 @@ instance_create(objplayer.x,objplayer.y,objshotgunbullet_saw)
 instance_create(objplayer.x,objplayer.y,objshotgunbullet_saw)
 instance_create(objplayer.x,objplayer.y,objshotgunbullet_saw)
 instance_create(objplayer.x,objplayer.y,objshotgunbullet_saw)
+};
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="51">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Dual Thompsons</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.dualwieldtommy = 1
+if weapon = 2
+if weapontimer = 1
+{
+alarm[0] = 4
+weapontimer = 0
+instance_create(objplayer.x,objplayer.y,objtommybullet_dw2)
+};
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="50">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Thompson</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.dualwieldtommy = 0
+if weapon = 2
+if weapontimer = 1
+{
+alarm[0] = 4
+weapontimer = 0
+instance_create(objplayer.x,objplayer.y,objtommybullet)
+};
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Dual Thompsons</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.dualwieldtommy = 1
+if weapon = 2
+if weapontimer = 1
+{
+alarm[0] = 4
+weapontimer = 0
+instance_create(objplayer.x,objplayer.y,objtommybullet_dw1)
 };
 
 </string>
