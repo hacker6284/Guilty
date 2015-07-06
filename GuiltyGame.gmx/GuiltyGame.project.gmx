@@ -36,6 +36,8 @@
     <object>objects\objshotgunbullet</object>
     <object>objects\objshotgunbullet_saw</object>
     <object>objects\objranged_1</object>
+    <object>objects\objranged_2</object>
+    <object>objects\objspinbullet</object>
     <object>objects\objpyromancer</object>
     <object>objects\objmelee_1</object>
     <object>objects\objenemybullet</object>
@@ -44,7 +46,6 @@
     <object>objects\objenemybullet_parent</object>
     <object>objects\objbullet_parent</object>
     <object>objects\scoreboard</object>
-    <object>objects\spinobj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
