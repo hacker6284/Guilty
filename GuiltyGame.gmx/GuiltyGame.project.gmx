@@ -12,13 +12,16 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\shotgunbullet</sprite>
     <sprite>sprites\ranged_1</sprite>
+    <sprite>sprites\Pyromancer</sprite>
     <sprite>sprites\melee_1</sprite>
     <sprite>sprites\enemybullet</sprite>
+    <sprite>sprites\enemyfireball</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
     <path>paths\path0</path>
     <path>paths\path1</path>
+    <path>paths\path2</path>
   </paths>
   <objects name="objects">
     <object>objects\objplayer</object>
@@ -28,8 +31,10 @@
     <object>objects\objbullet_3</object>
     <object>objects\objbullet_3_2</object>
     <object>objects\objranged_1</object>
+    <object>objects\objpyromancer</object>
     <object>objects\objmelee_1</object>
     <object>objects\objenemybullet</object>
+    <object>objects\objenemyfireball</object>
     <object>objects\objenemy_parent</object>
     <object>objects\objenemybullet_parent</object>
     <object>objects\objbullet_parent</object>
