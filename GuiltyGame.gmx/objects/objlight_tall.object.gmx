@@ -53,7 +53,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>200</string>
+            <string>100</string>
           </argument>
         </arguments>
       </action>
@@ -81,7 +81,8 @@
     lightheight = self.lightheight;
     distance = distance_to_object(objplayer);
     win.image_angle = point_direction(x,y,objplayer.x,objplayer.y);
-    win.image_xscale = (abs(lightheight * (distance/(lightheight - height))/height))+ 1;
+    win.image_xscale = (abs(lightheight * (distance/(lightheight - height))/height))+ .5;
+    win.image_yscale = ((abs(lightheight * (distance/(lightheight - height))/height))/10) + .7;
     win.image_alpha = 1 - distance/falloff;
 }
 </string>
