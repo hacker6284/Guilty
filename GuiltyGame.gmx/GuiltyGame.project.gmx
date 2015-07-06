@@ -15,7 +15,9 @@
     <sprite>sprites\Pyromancer</sprite>
     <sprite>sprites\melee_1</sprite>
     <sprite>sprites\enemybullet</sprite>
+    <sprite>sprites\light_tall</sprite>
     <sprite>sprites\enemyfireball</sprite>
+    <sprite>sprites\shadow</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -46,6 +48,8 @@
     <object>objects\objenemybullet_parent</object>
     <object>objects\objbullet_parent</object>
     <object>objects\scoreboard</object>
+    <object>objects\objlight_tall</object>
+    <object>objects\objshadow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
