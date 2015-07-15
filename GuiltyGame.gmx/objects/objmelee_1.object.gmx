@@ -473,6 +473,7 @@ else if distance_to_object(objplayer) &gt; 200 &amp;&amp; vision = 1{
     vision = 2;
 }
 
+self.image_angle = point_direction(self.x,self.y,objplayer.x,objplayer.y);
 </string>
           </argument>
         </arguments>
