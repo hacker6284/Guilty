@@ -50,6 +50,7 @@
     <object>objects\objbullet_parent</object>
     <object>objects\scoreboard</object>
     <object>objects\objlight_tall</object>
+    <object>objects\objlight_short</object>
     <object>objects\objshadow</object>
   </objects>
   <rooms name="rooms">
