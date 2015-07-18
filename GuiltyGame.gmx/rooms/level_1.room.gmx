@@ -169,6 +169,8 @@
     <instance objName="objranged_2" x="288" y="48" name="inst_E871A9EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objlight_tall" x="768" y="336" name="inst_2586BBB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objlight_tall" x="672" y="464" name="inst_5CCF3DEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objlight_short" x="592" y="288" name="inst_49AE2129" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objlight_short" x="480" y="464" name="inst_7CF94B82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
