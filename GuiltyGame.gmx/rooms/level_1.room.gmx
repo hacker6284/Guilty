@@ -162,7 +162,7 @@
     <instance objName="objwall" x="64" y="0" name="inst_A59668A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objwall" x="32" y="0" name="inst_2E8E537E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objwall" x="0" y="0" name="inst_3B4DD77F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objhell_dregg" x="48" y="320" name="inst_0075B615" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objmelee_1" x="48" y="320" name="inst_0075B615" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scoreboard" x="112" y="48" name="inst_73830FA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objpyromancer" x="80" y="560" name="inst_4A8425CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objranged_1" x="48" y="48" name="inst_E5562887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
