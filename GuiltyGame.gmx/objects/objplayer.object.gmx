@@ -467,9 +467,7 @@
     else if (keyboard_check(ord("W"))) motion_set(90, player_speed);
     else if (keyboard_check(vk_nokey)) motion_set(0,0);
 }
-{
 
-}
 </string>
           </argument>
         </arguments>
@@ -716,7 +714,7 @@ weapontimer = 0
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>leftbuttonpressed</string>
+            <string>leftmousebutton</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -870,7 +868,7 @@ instance_create(objplayer.x,objplayer.y,objtommybullet_dw1)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>rightbuttonpressed</string>
+            <string>rightmousebutton</string>
           </argument>
           <argument>
             <kind>0</kind>
