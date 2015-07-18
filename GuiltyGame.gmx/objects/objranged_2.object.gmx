@@ -834,7 +834,7 @@ instance_create(self.x,self.y,objspinbullet);
         <arguments>
           <argument>
             <kind>8</kind>
-            <path>-100</path>
+            <path>path0</path>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1366,7 +1366,7 @@ instance_create(self.x,self.y,objspinbullet);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>(healthvar/maxhealth)*16</string>
+            <string>((healthvar/maxhealth)*32)-16</string>
           </argument>
           <argument>
             <kind>0</kind>

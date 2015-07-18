@@ -1076,7 +1076,7 @@ else if distance_to_object(objplayer) &gt; 200 &amp;&amp; vision = 1{
           </argument>
           <argument>
             <kind>0</kind>
-            <string>(healthvar/maxhealth)*16</string>
+            <string>((healthvar/maxhealth)*32)-16</string>
           </argument>
           <argument>
             <kind>0</kind>

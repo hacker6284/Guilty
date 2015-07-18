@@ -1117,7 +1117,7 @@ self.image_angle = point_direction(self.x,self.y,objplayer.x,objplayer.y);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>(healthvar/maxhealth)*16</string>
+            <string>((healthvar/maxhealth)*32)-16</string>
           </argument>
           <argument>
             <kind>0</kind>
