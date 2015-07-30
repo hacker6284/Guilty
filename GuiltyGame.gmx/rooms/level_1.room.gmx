@@ -171,7 +171,7 @@
     <instance objName="objlight_tall" x="672" y="464" name="inst_5CCF3DEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objlight_short" x="592" y="288" name="inst_49AE2129" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objlight_short" x="480" y="464" name="inst_7CF94B82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objhelldreg" x="528" y="112" name="inst_7DE7A4C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objvampire_jump" x="704" y="144" name="inst_7D2426F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -13,6 +13,7 @@
     <sprite>sprites\shotgunbullet</sprite>
     <sprite>sprites\ranged_1</sprite>
     <sprite>sprites\Pyromancer</sprite>
+    <sprite>sprites\vampire_jump</sprite>
     <sprite>sprites\melee_1</sprite>
     <sprite>sprites\helldreg</sprite>
     <sprite>sprites\enemybullet</sprite>
@@ -47,6 +48,7 @@
     <object>objects\objspinbullet</object>
     <object>objects\objpyromancer</object>
     <object>objects\objmelee_1</object>
+    <object>objects\objvampire_jump</object>
     <object>objects\objhelldreg</object>
     <object>objects\objenemybullet</object>
     <object>objects\objenemyfireball</object>
