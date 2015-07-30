@@ -165,7 +165,7 @@
     <instance objName="objmelee_1" x="48" y="320" name="inst_0075B615" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scoreboard" x="112" y="48" name="inst_73830FA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objpyromancer" x="80" y="560" name="inst_4A8425CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objranged_1" x="48" y="48" name="inst_E5562887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objeyebat" x="48" y="48" name="inst_E5562887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objranged_2" x="288" y="48" name="inst_E871A9EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objlight_tall" x="768" y="336" name="inst_2586BBB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objlight_tall" x="672" y="464" name="inst_5CCF3DEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

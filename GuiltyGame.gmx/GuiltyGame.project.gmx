@@ -12,6 +12,7 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\shotgunbullet</sprite>
     <sprite>sprites\ranged_1</sprite>
+    <sprite>sprites\eyebat</sprite>
     <sprite>sprites\Pyromancer</sprite>
     <sprite>sprites\vampire_jump</sprite>
     <sprite>sprites\melee_1</sprite>
@@ -43,7 +44,7 @@
     <object>objects\objtommybullet_dw2</object>
     <object>objects\objshotgunbullet</object>
     <object>objects\objshotgunbullet_saw</object>
-    <object>objects\objranged_1</object>
+    <object>objects\objeyebat</object>
     <object>objects\objranged_2</object>
     <object>objects\objspinbullet</object>
     <object>objects\objpyromancer</object>
