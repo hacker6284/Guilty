@@ -49,19 +49,19 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>16</string>
+            <string>view_xview + 16</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>view_yview + 20</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>128</string>
+            <string>view_xview + 128</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>32</string>
+            <string>view_yview + 32</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -91,7 +91,7 @@
             <kind>1</kind>
             <string>var healthdraw = "Health: " + string(health);
 draw_set_colour(c_white);
-draw_text_transformed(16,17,healthdraw,1,1,0);
+draw_text_transformed(view_xview + 16,view_yview + 17,healthdraw,1,1,0);
 </string>
           </argument>
         </arguments>
